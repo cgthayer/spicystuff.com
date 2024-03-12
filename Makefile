@@ -1,8 +1,7 @@
 check:
-	
 	npm run astro check
 
-push: check
+deploy: check
 	git commit -am "checkpoint"
 	git push
 
