@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabasco Experience</title>
-</head>
+![images/tabasco-taco.png]
 
-<body>
-  <p><img src="images/tabasco-taco.png">
-
-    <p>The sun dipped below the Golden Gate Bridge, casting a warm
+  The sun dipped below the Golden Gate Bridge, casting a warm
     glow on our picnic table at Crissy Field. I grabbed the petite
     bottle with its distinctive diamond label. A few drops of Tabasco
     onto the sizzling patties worked like magic, releasing a spicy
@@ -18,9 +11,9 @@
     and peppery kick elevated the smoky char of the burgers, leaving a
     lingering heat that danced on my palate without overwhelming the
     burger. The combination of the rich, savory meat and the vibrant
-    punch of Tabasco was perfect.</p>
+    punch of Tabasco was perfect.
 
-    <p>Tabasco is a reliable sidekick in the hot sauce pantry as
+    Tabasco is a reliable sidekick in the hot sauce pantry as
     perhaps the most common staple. The first time I’m trying to add
     heat to a dish, I’ll start with a couple of dashes of
     Tabasco. From eggs to veggies to burgers to pizza, it’s a true
@@ -29,10 +22,7 @@
     make it a crowd-pleaser. Consider adding a few dashes (or
     substituting it for salt) in soups, stews, grilled meats, and
     avocado toast, and don’t forget to enjoy it with the occasional
-    bloody mary!</p>
+    bloody mary!
 
-    <p>Recipes: <a href="https://www.tabasco.com/recipe/" target="_blank">https://www.tabasco.com/recipe/</a></p>
-
-</body>
-
-</html>
+    Recipes: [https://www.tabasco.com/recipe/](https://www.tabasco.com/recipe/)
+    
