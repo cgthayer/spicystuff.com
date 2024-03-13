@@ -1,5 +1,6 @@
 ---
-
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
 ---
 
 <!DOCTYPE html>
@@ -9,40 +10,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spicy Stuff</title>
-    <style>
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(204, 102, 102, 0.8);
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #CC6644; /* Spicy red pepper color */
-            background-image: url("images/spice-background.jpg");
-            color: #880000; /* White text for contrast */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        main {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-            border-radius: 10px;
-        }
-
-        h2 {
-            color: #FF6347; /* Spicy red pepper color for heading */
-        }
-
-        p {
-            line-height: 1.5;
-        }
-    </style>
 </head>
 
 <body>
@@ -73,6 +40,8 @@
             <h2>Recipes</h2>
             <p>Spice up your meals with our curated collection of hot sauce-infused recipes. From appetizers to desserts, we've got your cravings covered.</p>
         </section>
+        
+        <p><Nav /></p>
     </main>
     (c) <a href="https://www.freepik.com/free-photo/top-view-bowl-cherry-tomates-hot-red-peppers-wooden-spoon-bay-leaves-bowls-ketchup-hot-pepper-powder-tomato-black-ground_14405281.htm#fromView=search&page=1&position=23&uuid=8d06adb7-d1bb-4449-8f5b-ecc5706adba1">Image by KamranAydinov on Freepik</a>
 
