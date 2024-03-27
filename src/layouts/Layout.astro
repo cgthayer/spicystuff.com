@@ -1,11 +1,15 @@
 ---
+
 interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
----
 
+import 'bootstrap/dist/css/bootstrap.css';
+import { Breadcrumb } from 'astro-bootstrap';
+---
+<!-- Layout.astro -->
 <!doctype html>
 <html lang="en">
 	<head>
@@ -17,6 +21,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+		<Breadcrumb />
 		<slot />
 	</body>
 </html>

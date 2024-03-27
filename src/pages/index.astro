@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 ---
-
+<!-- index.astro -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +10,13 @@ import Nav from '../components/Nav.astro';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spicy Stuff</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <header>
         <h1><div id="colorChange"><i><b>Spicy Stuff</b></i></div></h1>
         <p><i>Your Ultimate Guide to All Things Hot Sauce</i></p>
@@ -28,12 +32,40 @@ import Nav from '../components/Nav.astro';
             <h2>Hot Sauce Reviews</h2>
             <p>Discover the hottest sauces on the market. We provide honest reviews and recommendations to help you navigate the vast world of spicy condiments.</p>
             <ul>
-              <li><a href="sriracha.html">Sriracha</a></li>
+              <li><div width="100%"><button type="button" class="btn" width="100%"><img src="images/sriracha.jpg" width="64">
+                 <a href="sriracha.html">Sriracha</a></button></div></li>
               <li><a href="reviews/tabasco/">Tabasco</a></li>
               <li><a href="cholula.html">Cholula</a></li>
               <li><a href="franks.html">Frank's</a></li>
               <li><a href="valentina.html">Valentina</a></li>
             </ul>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="images/sriracha.jpg" class="img-fluid rounded-start" width="100%">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="sriracha.html"><b>Sriracha</b> - Currently the single most popular hot sauce</a></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="images/tabasco.jpg" class="img-fluid rounded-start" width="100%">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="reviews/tabasco.html"><b>Tabasco</b> - Currently the single most popular hot sauce</a></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
         </section>
 
         <section>
@@ -42,6 +74,7 @@ import Nav from '../components/Nav.astro';
         </section>
         
         <p><Nav /></p>
+
     </main>
     (c) <a href="https://www.freepik.com/free-photo/top-view-bowl-cherry-tomates-hot-red-peppers-wooden-spoon-bay-leaves-bowls-ketchup-hot-pepper-powder-tomato-black-ground_14405281.htm#fromView=search&page=1&position=23&uuid=8d06adb7-d1bb-4449-8f5b-ecc5706adba1">Image by KamranAydinov on Freepik</a>
 
